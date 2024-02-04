@@ -1,11 +1,11 @@
 {
   "slug": "modulove-modules",
   "name": "modulove",
-  "version": "2.0.0",
+  "version": "0.1.0",
   "license": "proprietary",
   "brand": "Modulove",
   "author": "Marcel Nehrig",
-  "authorEmail": "marcel@modulove.io",
+  "authorEmail": "",
   "authorUrl": "modulove.io",
   "pluginUrl": "modulove.io/MyPlugin",
   "manualUrl": "modulove.io/MyPluginManual",
