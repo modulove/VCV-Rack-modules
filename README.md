@@ -15,7 +15,7 @@ Special "blank" panel
 
 
 # Contributing
-I welcome Issues and Pull Requests to this repository if you have suggestions for improvement.
+We welcome Issues and Pull Requests to this repository if you have suggestions for improvements.
 
 If you enjoy those modules you can support the development by making a donation: DONATE
 
