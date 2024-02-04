@@ -4,7 +4,8 @@ VCV Rack modules based on Modulove Eurorack hardware
 Read about the modules here: https://modulove.io/#modules
 
 # Modules
-
+## MVMNT
+The first Module MVMNT is now in development
 
 # Differences with hardware
 

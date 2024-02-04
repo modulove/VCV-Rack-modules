@@ -1,2 +1,11 @@
 .DS_Store
 */.DS_Store
+.vscode
+*/.vscode
+*/.vscode/*
+/build
+/dist
+/*.so
+/*.dylib
+/*.dll
+.DS_Store

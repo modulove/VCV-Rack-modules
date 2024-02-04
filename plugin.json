@@ -1,0 +1,23 @@
+{
+  "slug": "modulove-modules",
+  "name": "modulove",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "Modulove",
+  "author": "Marcel Nehrig",
+  "authorEmail": "marcel@modulove.io",
+  "authorUrl": "modulove.io",
+  "pluginUrl": "modulove.io/MyPlugin",
+  "manualUrl": "modulove.io/MyPluginManual",
+  "sourceUrl": "github.com/Modulove",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "MVMNT",
+      "name": "MVMNT",
+      "description": "Smooth Random Bezier CV",
+      "tags": []
+    }
+  ]
+}
