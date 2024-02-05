@@ -1,7 +1,7 @@
 {
   "slug": "modulove-modules",
-  "name": "modulove",
-  "version": "0.1.0",
+  "name": "Modulove",
+  "version": "2.0.0",
   "license": "proprietary",
   "brand": "Modulove",
   "author": "Marcel Nehrig",
@@ -18,6 +18,14 @@
       "name": "MVMNT",
       "description": "Smooth Random Bezier CV",
       "tags": []
+    },
+    {
+      "slug": "ARYTHMATIK",
+      "name": "ARYTHMATIK",
+      "description": "Euclidean Sequencer",
+      "tags": [
+        "Sequenzer"
+      ]
     }
   ]
 }
