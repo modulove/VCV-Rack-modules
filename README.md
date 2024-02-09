@@ -7,17 +7,21 @@ Read about the modules here: https://modulove.io/#modules
 ## MVMNT
 The first Module MVMNT is now in development
 
+## BLANK
+The first blank is done.
+
 # Differences with hardware
 
 
 # ToDo
 Blank panels in 4 HP.
-Special "blank" panel
 
 
 # Contributing
 We welcome Issues and Pull Requests to this repository if you have suggestions for improvements.
 
+
+# Donating
 If you enjoy those modules you can support the development by making a donation: DONATE
 
 Have fun!
