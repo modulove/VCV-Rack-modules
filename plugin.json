@@ -5,27 +5,31 @@
   "license": "proprietary",
   "brand": "Modulove",
   "author": "Marcel Nehrig",
-  "authorEmail": "",
+  "authorEmail": "dev@modulove.io",
   "authorUrl": "modulove.io",
   "pluginUrl": "modulove.io/MyPlugin",
   "manualUrl": "modulove.io/MyPluginManual",
   "sourceUrl": "github.com/Modulove",
-  "donateUrl": "",
+  "donateUrl": "paypal.me/modulove",
   "changelogUrl": "",
   "modules": [
     {
       "slug": "MVMNT",
       "name": "MVMNT",
       "description": "Smooth Random Bezier CV",
-      "tags": []
+      "tags": [ "Random" ]
     },
     {
       "slug": "ARYTHMATIK",
       "name": "ARYTHMATIK",
       "description": "Euclidean Sequencer",
-      "tags": [
-        "Sequenzer"
-      ]
+      "tags": [ "Sequencer" ]
+    },
+    {
+      "slug": "moduloveblank",
+      "name": "ModuloveBlank",
+      "description": "Modulove blank panel",
+      "tags": [ "Visual", "Blank" ]
     }
   ]
 }
