@@ -8,13 +8,15 @@ Read about the modules here: https://modulove.io/#modules
 The first Module MVMNT is now in development
 
 ## BLANK
-The first blank is done.
+![Preview of the Generic Blank module (light)](doc/Blank.png) ![Preview of the Generic Blank module (dark)](doc/Blank-dark.png)
+
+The first blank was done with the help of this [template](https://github.com/Paul-Dempsey/GenericBlank).
 
 # Differences with hardware
 
 
 # ToDo
-Blank panels in 4 HP.
+Blank panels with design in 4 HP.
 
 
 # Contributing
