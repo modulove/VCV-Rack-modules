@@ -12,6 +12,11 @@ struct MVMNT : Module {
     // Timer and state for the LED
     float ledTimer = 0.0;
     bool ledState = false;
+
+
+	float last_value = 0.5;
+	int next_target = 5000;
+	float target_value = 1.0;
 	
 	enum ParamId {
 		KNOB1_PARAM,
@@ -46,6 +51,9 @@ struct MVMNT : Module {
 		configOutput(OUT2_OUTPUT, "OUT");
 		configOutput(OUT3_OUTPUT, "BI");
 	}
+	void print(std::string s) {
+		std::cout << s << std::endl;
+	}
 
 	void process(const ProcessArgs& args) override {
 		// Compute the frequency from the pitch parameter and input
@@ -55,16 +63,32 @@ struct MVMNT : Module {
 		float fluctuate = params[KNOB4_PARAM].getValue();
 		float input = inputs[IN1_INPUT].getVoltage();
 
-		// Compute the frequency from the pitch and input
-		float new_value = 1;
-		float new_voltage = level * new_value;
+		// Intelligenz
+
+		float delta = (target_value - last_value) / next_target;
+		float next_value = last_value + delta;
+		next_target -= 1;
+		if (next_target <= 0) {
+			print("new target!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+			next_target = random::uniform() * 100000.0 * stretch + 1000.0;
+			print("new target: " + std::to_string(next_target));
+			target_value = random::uniform();
+			print("new target value: " + std::to_string(target_value));
+		}
+		float new_voltage = level * next_value;
+		
+
 
 		static int counter = 0;
 		static int second_counter = 0;
-		if (++counter % 44100 == 0) { // Log once every second at 44.1kHz
+		if (++counter % 4410 == 0) { // Log once every second at 44.1kHz
 			second_counter++;
 
-        	std::cout << second_counter << " seconds passed" << std::endl;
+			std::cout << "delta: " << delta << std::endl;
+			std::cout << "next_value" << next_value << std::endl;
+			std::cout << "next_target" << next_target << std::endl;
+			std::cout << "target_value" << target_value << std::endl;
+        	std::cout << "new_voltage" << new_voltage << std::endl;
 			std::cout << "level: " << level << std::endl;
 			std::cout << "stretch: " << stretch << std::endl;
 			std::cout << "smooth: " << smooth << std::endl;
@@ -95,6 +119,8 @@ struct MVMNT : Module {
 		outputs[OUT1_OUTPUT].setVoltage(10-new_voltage); // Inverse of output 2
 		outputs[OUT2_OUTPUT].setVoltage(new_voltage); // Output between 0 and 10V
 		outputs[OUT3_OUTPUT].setVoltage(2 * new_voltage - 10); // Output beween -10 and 10V
+
+		last_value = next_value;
 	}
 };
 
