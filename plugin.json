@@ -16,6 +16,12 @@
     {
       "slug": "MVMNT",
       "name": "MVMNT",
+      "description": "NOT Smooth Random CV",
+      "tags": [ "Random" ]
+    },
+    {
+      "slug": "MVMNT2",
+      "name": "MVMNT2",
       "description": "Smooth Random Bezier CV",
       "tags": [ "Random" ]
     },
