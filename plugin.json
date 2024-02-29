@@ -26,6 +26,12 @@
       "tags": [ "Random" ]
     },
     {
+      "slug": "SYNCLFO",
+      "name": "SYNCLFO",
+      "description": "MOD SYNC LFO",
+      "tags": [ "Random" ]
+    },
+    {
       "slug": "ARYTHMATIK",
       "name": "ARYTHMATIK",
       "description": "Euclidean Sequencer",
