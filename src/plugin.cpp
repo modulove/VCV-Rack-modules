@@ -10,6 +10,7 @@ void init(Plugin* p) {
 	// Add modules here
 	p->addModel(modelMVMNT);
 	p->addModel(modelMVMNT2);
+	p->addModel(modelSYNCLFO);
 	p->addModel(modelARYTHMATIK);
 	p->addModel(modelBlank);
 
