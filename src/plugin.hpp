@@ -10,5 +10,6 @@ extern Plugin* pluginInstance;
 // Declare each Model, defined in each module source file
 extern Model* modelMVMNT;
 extern Model* modelMVMNT2;
+extern Model* modeSYNCLFO;
 extern Model* modelARYTHMATIK;
 extern Model* modelBlank;
