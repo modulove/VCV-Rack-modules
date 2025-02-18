@@ -1,7 +1,7 @@
 # VCV-Rack-modules
 VCV Rack modules based on Modulove Eurorack hardware
 
-Read about the modules here: [https://modulove.io/#modules](https://modulove.io/vcv-rack/)
+Read about the modules here: [https://modulove.io/vcv-rack/](https://modulove.io/vcv-rack/)
 
 # Udate
 
