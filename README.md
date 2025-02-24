@@ -3,13 +3,16 @@ VCV Rack modules based on Modulove Eurorack hardware
 
 Read about the modules here: [https://modulove.io/vcv-rack/](https://modulove.io/vcv-rack/)
 
-# Udate
+# Update
 
 We plan on releasing a selection of our modules in 2025.
 
 # Modules
 ## MVMNT
-The first Module MVMNT is now in development
+
+MVMNT is in development
+
+![Preview of the MVMNT VCV Rack module (dark)](https://dl.modulove.de/module/mvmnt/img/MVMNT_VCVrack.JPG)
 
 ## BLANK
 ![Preview of the Generic Blank module (light)](doc/Blank.png) ![Preview of the Generic Blank module (dark)](doc/Blank-dark.png)
