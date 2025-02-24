@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="3.0016mm"
+   height="3.0016899mm"
+   viewBox="0 0 3.0016 3.0016899"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="phi_led.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="5.2412698"
+     inkscape:cx="9.3488795"
+     inkscape:cy="-0.85857057"
+     inkscape:window-width="1392"
+     inkscape:window-height="1212"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-137.45837,-128.65286)">
+    <path
+       id="path1"
+       style="clip-rule:evenodd;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.0846667;stroke-linecap:round;stroke-miterlimit:10"
+       d="M 138.80557 128.66061 C 138.0492 128.73753 137.45837 129.37694 137.45837 130.15354 C 137.45837 130.93041 138.04975 131.57055 138.80661 131.64699 L 138.80661 131.04703 C 138.52282 131.03053 138.29486 130.93758 138.12293 130.76798 C 137.95218 130.60195 137.86536 130.37324 137.863 130.0812 C 137.8771 129.48771 138.19192 129.1709 138.80661 129.13087 L 138.80661 128.66061 C 138.80627 128.66065 138.80591 128.66058 138.80557 128.66061 z M 139.10995 128.66061 L 139.10995 129.13087 C 139.72464 129.17097 140.0398 129.48774 140.05511 130.0812 C 140.05311 130.37324 139.96714 130.60195 139.79725 130.76798 C 139.62886 130.93757 139.39964 131.03055 139.10995 131.04703 L 139.10995 131.64699 C 139.86755 131.57126 140.45974 130.93094 140.45974 130.15354 C 140.45974 129.37606 139.86755 128.73635 139.10995 128.66061 z M 138.80661 129.39028 C 138.60407 129.39228 138.44704 129.45671 138.33635 129.58304 C 138.2233 129.71021 138.16685 129.86924 138.16685 130.06001 C 138.16685 130.25784 138.22132 130.4243 138.32963 130.55972 C 138.43796 130.69161 138.597 130.76759 138.80661 130.78761 L 138.80661 129.39028 z M 139.10995 129.39028 L 139.10995 130.78761 C 139.32191 130.76751 139.48309 130.69159 139.59261 130.55972 C 139.69858 130.4243 139.75125 130.25784 139.75125 130.06001 C 139.75125 129.86924 139.6961 129.71021 139.58537 129.58304 C 139.4735 129.45703 139.31484 129.39263 139.10995 129.39028 z " />
+  </g>
+</svg>

@@ -17,25 +17,45 @@
       "slug": "MVMNT",
       "name": "MVMNT",
       "description": "NOT Smooth Random CV",
-      "tags": [ "Random" ]
+      "tags": [
+        "Random"
+      ]
     },
     {
       "slug": "MVMNT2",
       "name": "MVMNT2",
       "description": "Smooth Random Bezier CV",
-      "tags": [ "Random" ]
+      "tags": [
+        "Random"
+      ]
     },
     {
       "slug": "ARYTHMATIK",
       "name": "ARYTHMATIK",
       "description": "Euclidean Sequencer",
-      "tags": [ "Sequencer" ]
+      "tags": [
+        "Sequencer"
+      ]
     },
     {
       "slug": "moduloveblank",
       "name": "ModuloveBlank",
       "description": "Modulove blank panel",
-      "tags": [ "Visual", "Blank" ]
+      "tags": [
+        "Blank",
+        "Hardware clone",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Multvert",
+      "name": "Multvert",
+      "description": "",
+      "tags": [
+        "Hardware clone",
+        "Multiple",
+        "Polyphonic"
+      ]
     }
   ]
 }
